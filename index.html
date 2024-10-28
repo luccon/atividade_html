@@ -10,14 +10,14 @@
             padding: 0;
         }
         #principal {
-            width: 100vw;
-            height: 100vw;
+            width: 100%;
+            height: 100%;
             display: flex;
             flex-direction: row;
             justify-content: center;
         }
         header {
-            width: 100vw;
+            width: 100%;
             height: 60px;
             background-color: white;
             display: flex;
@@ -25,7 +25,7 @@
             border-bottom: 1px solid black;
         }
         footer {
-            width: 100vw;
+            width: 100%;
             height: 100px;
             background-color: white;
             justify-content: space-evenly;
@@ -35,7 +35,7 @@
         }
         #lateral {
             width: 10%;
-            height: 100%;
+            height: 100vw;
             background-color: white;
             display: flex; 
             flex-direction: column;
@@ -51,7 +51,7 @@
       
         }
         #titulo {
-            width: 100vw;
+            width: 100%;
         }
         .navegacao {
             font-size: 25px;
@@ -85,6 +85,14 @@
         #lista {
             font-size: 20px;
         }
+        h2 {
+            text-align: center;
+        }   
+        #FornoCremoso {
+            display: flex;
+            width: 100%;
+        }
+        
     </style>
 </head>
 <body background="background.webp">
@@ -107,10 +115,10 @@
             <div>
             <h2 class="navegacao">Receitas</h2>
             <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li><a href="#cremoso">Forno Cremoso</a></li>
+                <li><a href="#acafrao">Frango e Açafrão</a></li>
+                <li><a href="#grega">Arroz à Grega</a></li>
+                <li><a href="#cogumelos">Risoto de Cogumelos</a></li>
             </ul>
             </div>
         </div>
@@ -143,6 +151,99 @@
             <div id="divisoria"></div>
             <section>
                 <h2>Receitas</h2>
+                <div id="divisoria"></div>
+                <div id="cremoso">
+                    <h3>Arroz de Forno Cremoso</h3>
+                    <div id="divisoria"></div>
+                    <div  id="FornoCremoso">
+                    <img id="arrozcremoso" width="348px" height="246px" src="https://www.receitasagora.com.br/wp-content/uploads/2020/08/receita-de-arroz-de-forno-cremoso-e1596635285488.jpg" alt="Arroz cremoso">
+                    <ul style="list-style: circle; margin: 30px; font-size: 18px;text-align: left;" >
+                        Ingredientes:
+                        <li>2 xícaras de arroz cozido</li>
+                        <li>1 lata de creme de leite</li>
+                        <li>1 xícara de molho de tomate</li>
+                        <li>1/2 xícara de ervilhas (opcional)</li>
+                        <li>Queijo ralado para gratinar</li>
+                    </ul>
+                </div>
+                <div id="divisoria"></div>
+                <h3 style="text-align: left;">Modo de preparo:</h3>
+                    <ul style="list-style: circle; margin: 30px; font-size: 18px;text-align: left;">
+                        <li>Misture o arroz cozido com o creme de leite e o molho de tomate.</li>
+                        <li>Adicione as ervilhas e coloque em um refratário.</li>
+                        <li>Cubra com queijo ralado e leve ao forno até gratinar.</li>
+                    </ul>
+                </div>
+                <div id="divisoria"></div>
+                <div id="acafrao">
+                    <h3>Arroz com Frango e Açafrão</h3>
+                    <div id="divisoria"></div>
+                    <div  id="FornoCremoso">
+                    <img id="arrozcremoso" width="348px" height="246px" src="https://www.tendaatacado.com.br/dicas/wp-content/uploads/2023/07/topo-arroz-com-acafrao-e-frango.jpg" alt="Arroz açafrão">
+                    <ul style="list-style: circle; margin: 30px; font-size: 18px;text-align: left;" >
+                        Ingredientes:
+                        <li>2 xícaras de arroz</li>
+                        <li>1 peito de frango desfiado</li>
+                        <li>1 cebola picada</li>
+                        <li>1 colher de chá de açafrão</li>
+                        <li>Sal e pimenta a gosto</li>
+                    </ul>
+                </div>
+                <div id="divisoria"></div>
+                <h3 style="text-align: left;">Modo de preparo:</h3>
+                    <ul style="list-style: circle; margin: 30px; font-size: 18px;text-align: left;">
+                        <li>Refogue a cebola e o frango desfiado em um pouco de azeite.</li>
+                        <li>Adicione o arroz e o açafrão, misture bem.</li>
+                        <li>Acrescente água e cozinhe até o arroz ficar macio.</li>
+                    </ul>
+                </div>
+                <div id="divisoria"></div>
+                <div id="grega">
+                    <h3>Arroz à Grega</h3>
+                    <div id="divisoria"></div>
+                    <div  id="FornoCremoso">
+                    <img id="arrozcremoso" width="348px" height="246px" src="https://img.cybercook.com.br/receitas/436/arroz-a-grega-8.jpeg" alt="Arroz açafrão">
+                    <ul style="list-style: circle; margin: 30px; font-size: 18px;text-align: left;" >
+                        Ingredientes:
+                        <li>2 xícaras de arroz cozido</li>
+                        <li>1/2 xícara de cenoura em cubos pequenos</li>
+                        <li>1/2 xícara de pimentão em cubos</li>
+                        <li>1/2 xícara de ervilhas</li>
+                        <li>Salsinha a gosto</li>
+                    </ul>
+                </div>
+                <div id="divisoria"></div>
+                <h3 style="text-align: left;">Modo de preparo:</h3>
+                    <ul style="list-style: circle; margin: 30px; font-size: 18px;text-align: left;">
+                        <li>Em uma frigideira, refogue a cenoura, o pimentão e as ervilhas.</li>
+                        <li>Misture com o arroz cozido e finalize com salsinha.</li>
+                    </ul>
+                </div>
+                <div id="divisoria"></div>
+                <div id="cogumelos">
+                    <h3>Risoto de Cogumelos</h3>
+                    <div id="divisoria"></div>
+                    <div  id="FornoCremoso">
+                    <img id="arrozcremoso" width="348px" height="246px" src="https://www.estadao.com.br/resizer/v2/SCHFB5D2BJEYJC5XHUDZHI2MDU.jpg?quality=80&auth=9d20812e834c750241aa1c4d888cf9ef94daba709596f0ad7d3756e76f7d3802&width=720&height=503&smart=true" alt="Arroz açafrão">
+                    <ul style="list-style: circle; margin: 30px; font-size: 18px;text-align: left;" >
+                        Ingredientes:
+                        <li>1 1/2 xícara de arroz arbóreo</li>
+                        <li>200g de cogumelos frescos fatiados</li>
+                        <li>1 cebola picada</li>
+                        <li>1/2 xícara de vinho branco</li>
+                        <li>Caldo de legumes</li>
+                        <li>Queijo parmesão ralado</li>
+                    </ul>
+                </div>
+                <div id="divisoria"></div>
+                <h3 style="text-align: left;">Modo de preparo:</h3>
+                    <ul style="list-style: circle; margin: 30px; font-size: 18px;text-align: left;">
+                        <li>Refogue a cebola e os cogumelos até dourar.</li>
+                        <li>Adicione o arroz e o vinho, mexendo até o líquido evaporar.</li>
+                        <li>Acrescente o caldo aos poucos, até o arroz ficar cremoso.</li>
+                        <li>Finalize com queijo parmesão.</li>
+                    </ul>
+                </div>
             </section>
             
         </div>
