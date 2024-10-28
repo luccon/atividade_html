@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universo do Arroz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #principal {
+            width: 100vw;
+            height: 100vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        header {
+            width: 100vw;
+            height: 60px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid black;
+        }
+        footer {
+            width: 100vw;
+            height: 100px;
+            background-color: white;
+            justify-content: space-evenly;
+            flex-direction: row;
+            display: flex;
+            border-top: 0.1px solid black;
+        }
+        #lateral {
+            width: 8%;
+            height: 100%;
+            background-color: white;
+            display: flex; 
+            flex-direction: column;
+            border-right: 1px solid black;
+        }
+        #lateral-dir {
+            width: 52%;
+            height: 100%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;            
+      
+        }
+        #titulo {
+            width: 100vw;
+        }
+        .navegacao {
+            font-size: 25px;
+            margin: 10px;
+        }
+        .menu {
+            font-size: 20px;
+            justify-content: center;
+            padding: 0;
+        }
+        ul {
+            list-style: none;
+        }
+        article > h2 , p{
+            margin: 5px;
+            text-align: left;
+            font-size: 20px;
+        }
+        article > h2 {
+            text-align: center;
+            font-size: 25px;
+        }
+        #divisoria {
+            width: 60px;
+            height: 60px;
+        }
+        #lista {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body background="background.webp">
+    <header id="inicio">
+        <img width="60x" height="60px" src="https://imagedelivery.net/5J21T3A70p3eKCXI0fpEOQ/de1beb0b-9343-4c5b-b756-75c0eb3b4900/w=1080,h=675" alt="Arroz logo">
+        <h1>Universo do Arroz</h1>
+    </header>
+    <main>
+        <div id="principal">
+        <div id="lateral">
+            <div>
+            <h2 class="navegacao">Conteúdo</h2>
+            <nav class="menu">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#locaisdecultivo">Locais de cultivo</a></li>
+                <li><a href="#videocuriosidade">Curiosidades</a></li>            
+            </ul>
+            </div>
+            <div>
+            <h2 class="navegacao">Receitas</h2>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+            </div>
+        </div>
+        <div id="lateral-dir">
+            <section>
+            <article>
+                <h2>O que é o arroz?</h2>
+                <p>O arroz é uma planta da família das gramíneas e gênero Oryza, que alimenta mais<br> de metade da população humana do mundo. É a terceira maior cultura cerealífera do<br> mundo, apenas ultrapassada pelas de milho e trigo. É rico em hidratos de carbono.<br> A maior parte do arroz provém da espécie Oryza sativa (por vezes chamado arroz asiático),<br> mas o chamado arroz africano provém da espécie Oryza glaberrima.<br>
+                    <br>
+                Para poder ser cultivado com sucesso, o arroz necessita de água em abundância, para<br> manter a temperatura ambiente dentro de intervalos adequados, e, nos sistemas<br> tradicionais, de mão de obra intensiva. Desenvolve-se bem mesmo em terrenos muito<br> inclinados carece de fontes e é costume, nos países do sudeste asiático,<br> encontrarem-se socalcos onde é cultivado. Em qualquer dos casos, a água mantém-se em<br> constante movimento, embora circule a velocidade muito reduzida.</p>
+            </article>
+            </section>
+            <div id="divisoria"></div>
+            <section id="locaisdecultivo">
+                <h2>
+                    Locais onde é cultivado o arroz:
+                </h2>
+                <ul id="lista">
+                    <li>China</li>
+                    <li>Índia</li>
+                    <li>Indonésia</li>
+                    <li>Bangladesh</li>
+                    <li>Tailândia</li>
+                    <li>Viatnã</li>
+                    <li>Myanmar</li>
+                    <li>Japão</li>
+                    <li>Brasil</li>
+                </ul>
+            </section>
+            <div id="divisoria"></div>
+            <section>
+                <h2>Receitas</h2>
+            </section>
+            
+        </div>
+        <div>
+    </main>
+    <footer>
+        <div>
+            <h2>Redes Sociais</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/eu__luucas/" target="_blank">Instagram</a></li>
+                <li><a href="https://github.com/luccon" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/lucas-dos-santos-barboza-006918184/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Contatos</h2>
+            <ul>
+                <li><img width="17px" height="17px" src="https://i.pinimg.com/originals/70/3c/8f/703c8f51837f61668f665ffdfc92ece1.jpg" alt="icone whatsapp"> (85)98715-7148</li>
+                <li>E-mail: lucas.barboza405@gmail.com</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
